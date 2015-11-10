@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Build all services..."
 #Maven rausgenommen
-cd movie-database-shop-app
+cd ../movie-database-shop-app
 sudo rm -rf node_modules
 sudo npm install -g grunt-cli
 sudo npm install grunt
